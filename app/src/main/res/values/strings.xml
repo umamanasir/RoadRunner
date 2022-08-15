@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RoadRunner</string>
+    <string name="login">LOG IN</string>
+    <string name="passwordHint">Enter Password</string>
+</resources>

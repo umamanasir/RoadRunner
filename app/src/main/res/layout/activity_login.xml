@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="650dp"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageSurface1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/img_surface1" />
+<!--        Login Heading-->
+
+        <TextView
+            android:id="@+id/txtLogin"
+            style="@style/heading_loadingScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageSurface1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/login" />
+
+<!--Email Text box-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <EditText
+                style="@style/textBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/img_email"
+                android:drawablePadding="8dp"
+                android:ellipsize="end"
+                android:hint="abc@lums.edu.pk"
+                android:inputType="textEmailAddress"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+<!--Password text box-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/constraintGroup18"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:drawableLeft="@drawable/img_password"
+                android:drawablePadding="8dp"
+                android:hint="Enter password"
+                android:inputType="textPassword"
+                 />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llPassword"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="2dp" />
+
+            <TextView
+                style="@style/txtRobotoromanregular11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Remember Me" />
+
+            <TextView
+                style="@style/txtRobotoromanregular11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:singleLine="true"
+                android:text="Forgot Password?" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/constraintGroup18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtEmail"
+                style="@style/textBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/img_email"
+                android:drawablePadding="8dp"
+                android:hint="abc@lums.edu.pk"
+                android:inputType="textEmailAddress"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/constraintGroup18"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtPassword"
+                style="@style/textBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="1dp"
+                android:drawableLeft="@drawable/img_password"
+                android:drawablePadding="5dp"
+                android:hint="@string/passwordHint"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/constraintRememberPasswo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llPassword"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+<!--            <com.google.android.material.switchmaterial.SwitchMaterial-->
+<!--                android:id="@+id/switchMaterialGroup6"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="48dp"-->
+<!--                android:layout_marginEnd="5dp"-->
+<!--                android:layout_marginBottom="2dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtRememberMe"-->
+<!--                style="@style/txtRobotoromanregular11"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:ellipsize="end"-->
+<!--                android:singleLine="true"-->
+<!--                android:text="Remember Me" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtForgotPassword"-->
+<!--                style="@style/txtRobotoromanregular11"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="40dp"-->
+<!--                android:singleLine="true"-->
+<!--                android:text="Forgot Password?" />-->
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLOGIN"
+            style="@style/btnSolidRounded"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@id/constraintRememberPasswo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+
+            android:background="@color/pine_green"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingStart="30dp"
+            android:paddingTop="1dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="1dp"
+            android:singleLine="true"
+            android:text="@string/lbl_login2"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnLOGIN"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtDontHaveAnAc"
+                style="@style/txtRobotoromanregular11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnLOGIN"
+                android:layout_marginLeft="50dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Don\'t have account?" />
+
+            <TextView
+                android:id="@+id/RegisterNow"
+                style="@style/txtRobotoCondensedbold12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Register Now"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageStatusbar"
+            app:layout_constraintBottom_toTopOf="@+id/imageSurface1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_statusbar"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="16dp" />/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

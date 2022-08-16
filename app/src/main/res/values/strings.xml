@@ -5,4 +5,5 @@
     <string name="passwordHint">Enter Password</string>
     <string name="emailHint">Enter Email</string>
     <string name="register">Register Now</string>
+    <string name="inputName">Enter Full Name</string>
 </resources>

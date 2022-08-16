@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/bg_black.xml" value="0.1805" />
         <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/btn_green.xml" value="0.1805" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/human.xml" value="0.133" />
         <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_email.xml" value="0.1" />
         <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_iconlylightme.xml" value="0.1125" />
         <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_password.xml" value="0.1" />
@@ -27,6 +28,7 @@
         <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/rectangle_bg_gray_901_radius_10.xml" value="0.1775" />
         <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/layout/activity_register.xml" value="0.16666666666666666" />
       </map>
     </option>
   </component>

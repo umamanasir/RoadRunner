@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    style="@style/roadRunner">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top">
+
+        <!--        Register now -->
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            style="@style/imgStyles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="103dp"
+            android:layout_marginEnd="88dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/img_surface1" />
+
+        <TextView
+            android:id="@+id/txtRegister"
+            style="@style/heading_loadingScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="@string/register" />
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtRegister"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="52dp"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/nameRegister"
+                style="@style/textBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/human"
+                android:drawablePadding="8dp"
+                android:hint="@string/inputName" />
+
+            <EditText
+                android:id="@+id/emailRegister"
+                style="@style/textBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/img_email"
+                android:drawablePadding="8dp"
+                android:hint="@string/emailHint"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/passwordRegister"
+                style="@style/textBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/img_password"
+                android:drawablePadding="8dp"
+                android:hint="@string/passwordHint"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/registerBtn"
+                style="@style/primaryBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="@string/register" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

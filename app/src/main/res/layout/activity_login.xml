@@ -11,24 +11,24 @@
     style="@style/roadRunner"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-
-
     <RelativeLayout
         android:layout_width="300dp"
         android:layout_height="1800dp"
         android:layout_centerInParent="true"
         android:gravity="top">
 
-        <!--        Login Heading-->
-
+        <!--Logo Image-->
         <ImageView
             android:id="@+id/imageSurface1"
             style="@style/imgStyles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="126dp"
+            android:layout_marginTop="80dp"
+            android:layout_centerHorizontal="true"
             android:src="@drawable/img_surface1" />
+
+        <!--        Login Heading-->
 
         <TextView
             android:id="@+id/txtLogin"
@@ -70,7 +70,6 @@
             android:layout_height="50dp"
             android:layout_below="@id/emailText"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="15dp"
             android:orientation="vertical">
 
             <EditText
@@ -98,7 +97,7 @@
                 style="@style/primaryBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/login"></Button>
+                android:text="@string/login"/>
         </LinearLayout>
 
         <LinearLayout
@@ -114,16 +113,17 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/loginBtn"
                 android:layout_marginTop="10dp"
-                android:text="@string/noAccount"></TextView>
+                android:text="@string/noAccount"/>
 
             <TextView
                 style="@style/login_footer"
+                android:id="@+id/registerNow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/register"
-                android:textStyle="bold|italic"></TextView>
+                android:textStyle="bold|italic"/>
         </LinearLayout>
 
     </RelativeLayout>

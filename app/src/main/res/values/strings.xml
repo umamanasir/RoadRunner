@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">RoadRunner</string>
     <string name="login">LOG IN</string>
+    <string name="noAccount">Don\'t have an account?</string>
     <string name="passwordHint">Enter Password</string>
+    <string name="emailHint">Enter Email</string>
+    <string name="register">Register Now</string>
 </resources>

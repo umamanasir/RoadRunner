@@ -3,8 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/bg_black.xml" value="0.1805" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/btn_green.xml" value="0.1805" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_email.xml" value="0.1" />
         <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_iconlylightme.xml" value="0.1125" />
-        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_password.xml" value="0.1" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_password_1.xml" value="0.1" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_rating.xml" value="0.1" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_roadrunner001.xml" value="0.1" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_roadrunner001_1.xml" value="0.1" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_surface1.xml" value="0.1" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_userinterface_1.xml" value="0.1" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/img_vector_3.xml" value="0.1" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/logo_register_screen.xml" value="0.1" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/rectangle_bg_black_900_66_radius_16.xml" value="0.1775" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/rectangle_bg_black_900_7f.xml" value="0.1925" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/rectangle_bg_black_900_cc.xml" value="0.1775" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/rectangle_bg_bluegray_900.xml" value="0.1775" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/rectangle_bg_bluegray_900_radius_10.xml" value="0.1775" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/rectangle_bg_bluegray_900_radius_11_5.xml" value="0.1775" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/rectangle_bg_gray_900_radius_15.xml" value="0.1775" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/rectangle_bg_gray_900_radius_8_2.xml" value="0.1775" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/drawable/rectangle_bg_gray_901_radius_10.xml" value="0.1775" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Spring 2022/RoadRunner/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>

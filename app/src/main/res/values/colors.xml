@@ -9,4 +9,6 @@
     <color name="white">#FFFFFF</color>
     <color name="textbox_bg">#262626</color>
     <color name="textHint">#D4D4D4D4</color>
+    <color name="btnGreen"> #136F63</color>
+    <color name="blackBg">#000000</color>
 </resources>

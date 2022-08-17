@@ -1,6 +1,8 @@
 # RoadRunner
 Android application developed in Kotlin.
 
-Functions implemented for now:
+Screens implemented for now:
 
-Login 
+1- Login 
+
+2- Register

@@ -20,6 +20,7 @@ class loginActivity: AppCompatActivity() {
             val password = password.text;
             Toast.makeText(this@loginActivity, email, Toast.LENGTH_LONG).show()
             // validate + verify the user_name and password combination
+
         }
 
         registerNow.setOnClickListener{

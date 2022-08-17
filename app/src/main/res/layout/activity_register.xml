@@ -39,12 +39,12 @@
             android:text="@string/register" />
 
         <LinearLayout
+            android:id="@+id/linear"
             android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/txtRegister"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
             android:layout_marginStart="70dp"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="15dp"
@@ -88,8 +88,32 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="70dp"
                 android:text="@string/register" />
-
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/haveAccount"
+            style="@style/login_footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="20dp"
+            android:text="Already have an account? " />
+
+        <TextView
+            style="@style/login_footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear"
+            android:layout_alignRight="@id/haveAccount"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginRight="-60dp"
+            android:text="@string/login"
+            android:id="@+id/loginNow"
+            android:textStyle="bold|italic" />
+
 
     </RelativeLayout>
 
